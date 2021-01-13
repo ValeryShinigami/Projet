@@ -17,18 +17,24 @@ h1, .navigation, .formulaire {
 
 .navigation li {
   padding: 20px;
-  color: white;
 
 }
 
 h1 {
-  color: white;
   font-family: 'Kaushan Script', cursive;
+}
+
+h1, .navigation li{
+  color: white;
 }
 
 .navigation li:hover {
   color: red;
   cursor: grab;
+}
+
+.dons:hover {
+  color: pink;
 }
 
 /* ************* MEDIA QUERIES ************************ */
