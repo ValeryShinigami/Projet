@@ -33,10 +33,6 @@ h1, .navigation li{
   cursor: grab;
 }
 
-.dons:hover {
-  color: pink;
-}
-
 /* ************* MEDIA QUERIES ************************ */
 
 @media screen and (min-width:576px){
