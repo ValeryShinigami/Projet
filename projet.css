@@ -1,0 +1,33 @@
+Header {
+  background: rgb(37, 66, 231);
+}
+
+.navigation {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, .navigation, .formulaire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation li {
+  padding: 20px;
+  color: white;
+
+}
+h1 {
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.navigation li:hover {
+  color: red;
+  cursor: grab;
+}
+
+
