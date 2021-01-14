@@ -29,13 +29,17 @@ h1, .card-header {
   font-family: 'Kaushan Script', cursive;
 }
 
-h1, .navigation li, .copyright{
+h1, .navigation li a, .copyright{
   color: white;
 }
 
-.navigation li:hover {
-  color: red;
-  cursor: grab;
+.navigation li a:hover {
+  color: rgb(172, 56, 56);
+  cursor: pointer;
+}
+
+.navigation li a {
+  text-decoration: none;
 }
 
 /* ************* MEDIA QUERIES ************************ */
@@ -50,7 +54,7 @@ h1, .navigation li, .copyright{
     float: right;
     max-width: 200px;
   }
-  .navigation li {
+  .navigation li a {
     text-decoration: underline;
   
   }
