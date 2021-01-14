@@ -1,0 +1,38 @@
+.image1 {
+  float: left;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+img {
+  background-color: rgb(37, 66, 231);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Lobster', cursive;
+}
+
+h1, .p1, .p2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+ 
+}
+* {
+  background: content-box radial-gradient(crimson, rgb(29, 138, 182));
+  border-radius: 50%;
+}
+
