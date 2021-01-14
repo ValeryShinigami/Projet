@@ -1,3 +1,5 @@
+/* ************* CSS HEADER ************************ */
+
 Header {
   background: rgb(37, 66, 231);
 }
@@ -20,7 +22,7 @@ h1, .navigation, .formulaire {
 
 }
 
-h1 {
+h1, .card-header {
   font-family: 'Kaushan Script', cursive;
 }
 
@@ -51,3 +53,21 @@ h1, .navigation li{
   }
 }
 
+/* ************* CSS MAIN ************************ */
+
+.image {
+  filter: brightness(0,6);
+}
+.link {
+  font-style: italic;
+  color: rgb(221, 19, 103);
+}
+.link:hover {
+  color: lightpink;
+}
+ 
+
+.image2 {
+  height: 100%;
+  width: 180px;
+}
