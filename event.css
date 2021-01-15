@@ -31,10 +31,7 @@ p {
   font-family: 'Lobster', cursive;
  
 }
-* {
-  background: content-box radial-gradient(crimson, rgb(29, 138, 182));
-  border-radius: 50%;
-}
+
 
 .cool {
  float: right;
@@ -51,3 +48,6 @@ p {
     
 }
  }
+
+
+
