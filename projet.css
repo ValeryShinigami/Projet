@@ -56,17 +56,32 @@ h1, .navigation li a, .copyright{
   }
   .navigation li a {
     text-decoration: underline;
-  }
-   
+  }  
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   .navigation li {
-    padding: 2px;
+    margin: 1.92px;
+    padding: 1px;
     
-
   }
 }
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .navigation li {
+   padding: 5px;
+   margin: 4px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .navigation li {
+    padding: 15px;
+   
+  }
+}
+
+
 
 /* ************* CSS MAIN ************************ */
 
