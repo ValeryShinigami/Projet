@@ -80,9 +80,13 @@ h1, .navigation li a, .copyright{
    
   }
 }
-
-
-
+@media screen and (min-width: 425px) {
+  .card-body1 {
+    padding: 30px;
+    
+    
+  }
+}
 /* ************* CSS MAIN ************************ */
 
 .image {
@@ -101,14 +105,17 @@ h1, .navigation li a, .copyright{
 }
 
 .img-fluid {
-  margin-top: 30px;
+  margin-top: 10px;
   border-radius: 10px;
   border: 2px solid black;
   margin-left: 10px;
   box-shadow: 10px 5px 5px rgb(75, 72, 74);
  
 }
- 
+
+.card-body1 {
+  text-align: center;
+}
 
 /* ************* CSS FOOTER ************************ */
 
@@ -131,5 +138,7 @@ footer {
   margin-left: 8px;
   font-size: 10px;
 }
+
+
 
 
