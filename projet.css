@@ -60,6 +60,14 @@ h1, .navigation li a, .copyright{
    
 }
 
+@media screen and (max-width: 456px){
+  .navigation li {
+    padding: 10px;
+    
+
+  }
+}
+
 /* ************* CSS MAIN ************************ */
 
 .image {
