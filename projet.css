@@ -60,9 +60,9 @@ h1, .navigation li a, .copyright{
    
 }
 
-@media screen and (max-width: 456px){
+@media screen and (max-width: 375px){
   .navigation li {
-    padding: 10px;
+    padding: 5px;
     
 
   }
