@@ -36,3 +36,18 @@ p {
   border-radius: 50%;
 }
 
+.cool {
+ float: right;
+ display: none;
+ 
+}
+
+/* ************* MEDIA QUERIES ************************ */
+
+
+@media screen and (min-width: 650px) {
+.cool {
+ display: block;
+    
+}
+ }
