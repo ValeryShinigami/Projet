@@ -8,30 +8,19 @@ form {
   padding: 50px;
   margin: 30px;
   border-radius: 30%;
-<<<<<<< HEAD
-=======
-  
 
- 
->>>>>>> ed13b52728f9e64cdd45ef2cfab055490831264b
+
 }
 
 label, input {
 margin-bottom: 8px;
-<<<<<<< HEAD
-=======
 
->>>>>>> ed13b52728f9e64cdd45ef2cfab055490831264b
 }
 
 body {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
   background-image: url(IMAGE/eiffel.jpg);
-=======
-  background-image: url(eiffel.jpg);
->>>>>>> ed13b52728f9e64cdd45ef2cfab055490831264b
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -40,7 +29,6 @@ body {
 
 h1 {
   text-align: center;
-<<<<<<< HEAD
   font-family: 'Kaushan Script', cursive;
   font-size: 35px;
 }
@@ -55,10 +43,7 @@ button {
   background-color: gray;
 }
 
-
-
-=======
   
-}
 
->>>>>>> ed13b52728f9e64cdd45ef2cfab055490831264b
+
+
