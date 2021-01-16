@@ -46,8 +46,10 @@ p {
   display: flex;
   justify-content: center;
   
- 
+}
 
+* {
+  background: radial-gradient(#f69d3c, #3f87a6);
 }
 
 /* ************* MEDIA QUERIES ************************ */
