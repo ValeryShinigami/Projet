@@ -25,6 +25,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  font-weight: bold;
+  
 }
 
 h1 {
@@ -43,6 +45,11 @@ button {
   background-color: gray;
 }
 
+@media screen and (min-width: 768px) {
+  form {
+    padding: 80px;
+  }
+}
   
 
 
