@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="formulaire.css">
+  <title>Formulaire</title>
+</head>
+
+<body>
+
+<h1>Collecte Déchets</h1>
+ <div class="formulaire"> 
+    <form method="post" action="#">
+
+      <label for="name">Nom Prénom</label>
+      <input type="text" id="name" name="name" placeholder="" required>
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Tel</label>
+      <input type="tel" id="phone" name="phone" requided>
+
+      <label for="message">Suggestion</label>   
+      <textarea rows="5" id="message" name="message"></textarea>
+
+      <div class="advert-wrapper">
+
+        <p>Souhaitez-vous recevoir nos news ?</p>
+  
+        <input type="radio" id="yes" name="news-question" value="yes" checked>
+        <label for="yes">Oui</label>
+  
+        <input type="radio" id="no" name="news-question" value="no">
+        <label for="no">Non</label>
+    
+      </div>
+
+      <button type="submit">Valider</button>
+     
+    </form>
+  </div> 
+</body>
+</html>
